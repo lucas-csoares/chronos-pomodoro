@@ -1,0 +1,29 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    padding-top: 3.2rem;
+}
+
+.logoLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    font-size: 4.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primary);
+    transition: all 0.1s ease-in-out; /* Adiciona uma transição suave para todas (all) as propriedades CSS que mudam quando o usuário interage com o elemento */
+}
+
+.logoLink:hover {
+    filter: brightness(50%); /* Escurece a cor do link em 50% quando o usuário passa o mouse sobre ele */
+}
+
+.logoLink svg {
+    width: 6.4rem;
+    height: 6.4rem;
+}
