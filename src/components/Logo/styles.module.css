@@ -20,7 +20,7 @@
 }
 
 .logoLink:hover {
-    filter: brightness(50%); /* Escurece a cor do link em 50% quando o usuário passa o mouse sobre ele */
+    filter: brightness(80%); /* Escurece a cor do link em 80% quando o usuário passa o mouse sobre ele */
 }
 
 .logoLink svg {

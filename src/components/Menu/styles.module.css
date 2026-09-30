@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    padding-top: 3.2rem;
+}
+
+.menuLink {
+    display: inline-flex; /* Define o link como um elemento flexível em linha (inline-flex) para que ele se comporte como um link normal, mas ainda permita o uso de propriedades flexbox */
+    align-items: center; /* Alinha verticalmente o conteúdo do link ao centro */
+    justify-content: center; /* Alinha horizontalmente o conteúdo do link ao centro */
+    text-decoration: none;
+    background: var(--primary);
+    color: var(--text-over-primary);
+    transition: all 0.1s ease-in-out; /* Adiciona uma transição suave para todas (all) as propriedades CSS que mudam quando o usuário interage com o elemento */
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+}
+
+.menuLink:hover {
+    filter: brightness(80%); /* Escurece a cor do link em 50% quando o usuário passa o mouse sobre ele */
+}
+
+.menuLink svg {
+    width: 2.4rem; 
+    height: 2.4rem;
+}

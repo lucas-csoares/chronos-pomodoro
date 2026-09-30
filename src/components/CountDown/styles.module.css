@@ -1,0 +1,6 @@
+.container {
+    font-size: clamp(8rem, 25vw, 16rem); /* Define o tamanho da fonte de forma responsiva usando a função clamp. O tamanho mínimo é 8rem, o tamanho preferido é 25% da largura da viewport (25vw) e o tamanho máximo é 16rem. Isso garante que o texto se ajuste dinamicamente ao tamanho da tela, mantendo uma legibilidade adequada em diferentes dispositivos. */
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.3;
+}
