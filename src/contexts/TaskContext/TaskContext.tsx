@@ -1,7 +1,3 @@
-// Cria o contexto React que compartilha o estado das tarefas e a função para atualizá-lo.
-
-// Seu valor padrão usa initialTaskState até que um TaskContextProvider envolva os componentes.
-
 import { createContext } from "react";
 import type { TaskStateModel } from "../../models/TaskStateModel";
 import { initialTaskState } from "./initialTaskState";
@@ -16,4 +12,5 @@ const initialContextValue: TaskContexProps = {
   setState: () => {}
 };
 
+/*Cria o context React para compartilhar o estado das tarefas e a função que atualiza esse estado entre diferentes componentes.*/
 export const TaskContext = createContext<TaskContexProps>(initialContextValue);
