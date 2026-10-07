@@ -4,6 +4,8 @@ import { DefaultButton } from '../DefaultButton';
 import { DefaultInput } from '../DefaultInput';
 
 export function MainForm() {
+
+
   return (
     <form className='form' action=''>
       <div className='formRow'>
@@ -16,7 +18,7 @@ export function MainForm() {
       </div>
 
       <div className='formRow'>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Próximo intervalor é de 25 min</p>
       </div>
 
       <div className='formRow'>

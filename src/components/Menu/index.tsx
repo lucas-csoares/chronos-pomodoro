@@ -18,7 +18,7 @@ export function Menu() {
 
     
     function handleThemeChange(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
-        event.preventDefault(); // Evita que o link seja seguido
+        event.preventDefault(); /* Quando você clica em um <a>, o navegador possui um comportamento padrão: navegar para o endereço definido no href. Esse método evita isso*/
         setTheme(prevTheme => {
             return prevTheme === 'dark' ? 'light' : 'dark';
         })

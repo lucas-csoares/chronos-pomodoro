@@ -1,10 +1,15 @@
-import { Home } from "./pages/Home";
+import { TaskContextProvider } from './contexts/TaskContext/TaskContextProvider';
+import { Home } from './pages/Home';
+
 import './styles/global.css';
 import './styles/theme.css';
 
-
-function App() { 
-    return <Home />      
+function App() {
+  return (
+    <TaskContextProvider>
+      <Home />
+    </TaskContextProvider>
+  );
 }
 
-export {App};
+export { App };
